@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ButterflyGarden - Contacte-nos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/software.css"/>
+        <link rel="stylesheet" href="css/form.css"/>
+    </head>
+    
+
+    
+    <body>
+   
+          <h1 class="titulo"> Butterfly Garden®  </h1>
+          <h2 class="titulo"> Fala connosco  </h2>
+            
+        
+<br>
+<br>
+
+             <form method="post" id="fcontato" action="mailto:contacto@gmail.com">
+                 <fieldset id="user"><legend> Diz-nos quem és ... </legend>
+                     <p><label for="cNome">Nome:<input type="text" name="tNome" id="cNome"/></label></p>
+                     <p><label for="cPassword">PassWord:<input type="password" name="tPassword" id="cPassword" size="8" maxlength="8" placeholder="8 digitos"/></label></p>
+                     <P><label for="cEmail">E-mail:<input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"></label></p>
+                     <fieldset id="sexo"><legend>Sexo:</legend>
+                         <label for="cMasc"><input type="radio" name="tSexo" id="cMasc">Masculino</label><br>
+                         <label for="cFen"><input type="radio" name="tSexo" id="cFem">Feminino</label><br>
+        </fieldset>
+                     <p><label for=cNasc>Data de Nascimento:<input type="date" name="tNasc" id="cNasc"/></label></p>
+                 </fieldset>
+        
+        <br>
+        
+        
+                 <fieldset id="mensagem"><legend> Como podemos ajudar? </legend>
+        <p>Grau de urgência:
+            <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2"/></p>
+        <p>Mensagem:</p>
+            <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Escreve aqui a tua mensagem"></textarea>
+                 </fieldset>
+        
+                
+        
+                 <input type="submit" value="Enviar"/>
+      
+             </form>     
+  
+
+            
+    </body>
+</html>
